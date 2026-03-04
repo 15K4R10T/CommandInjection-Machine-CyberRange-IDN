@@ -93,7 +93,7 @@ chmod +x run.sh
 ```
 
 ### Opsi B — Load dari Docker Image
-
+tar file (https://drive.google.com/file/d/10Pvo3co_Ojhu7bzIDm5cPigR3kuE3DRv/view?usp=sharing)
 ```bash
 docker load < lab-cmdi-image.tar.gz
 docker run -d --name lab-cmdi -p 8084:80 --restart unless-stopped lab-cmdi
